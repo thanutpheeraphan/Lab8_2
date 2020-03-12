@@ -32,7 +32,7 @@ class Simple_drawing_window(QWidget):
         p = QPainter()
         p.begin(self)
         p.setPen(QColor(0, 0, 0))
-        p.setBrush(QColor(0, 0, 0))
+        p.setBrush(QColor(10, 10, 10))
         for point in self.points:
             p.drawPie(point.x(), point.y(), 10, 10, 0, 180 * 32)
         p.end()
