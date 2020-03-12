@@ -8,7 +8,7 @@ from PySide2.QtPrintSupport import *
 class Simple_drawing_window(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
-        self.setWindowTitle("Simple Drawing")
+        self.setWindowTitle("Paint")
         self.points = []
 
         self.resize(400, 300)
